@@ -17,8 +17,9 @@ int main(void)
 			putchar(' ');
 		}
 		else
+		{
 			putchar(48 + num);
-
+		}
 		num++;
 	}
 	return (0);
