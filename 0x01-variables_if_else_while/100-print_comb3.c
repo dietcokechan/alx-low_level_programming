@@ -11,7 +11,7 @@ int main(void)
 
 	while (num <= 8)
 	{
-		for(m = num + 1; m <= 9; m++)
+		for (m = num + 1; m <= 9; m++)
 		{
 			putchar(48 + num);
 			putchar(48 + m);
