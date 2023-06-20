@@ -8,17 +8,17 @@
 int main(void)
 {
 	int counter = 0;
-	long int x = 1;
-	long int y = x + 1;
-	long int z = x + y;
+	float x = 1;
+	float y = x + 1;
+	float z = x + y;
 
-	printf("%ld, ", x);
-	printf("%ld, ", y);
+	printf("%.0f, ", x);
+	printf("%.0f, ", y);
 
 	while (counter <= 98)
 	{
 		counter++;
-		printf("%ld", z);
+		printf("%.0f", z);
 		x = y;
 		y = z;
 		z = x + y;
