@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int counter = 2;
+	int counter = 0;
 	long int x = 1;
 	long int y = x + 1;
 	long int z = x + y;
