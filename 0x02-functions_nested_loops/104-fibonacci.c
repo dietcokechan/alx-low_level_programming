@@ -12,8 +12,8 @@ int main(void)
 	long int y = x + 1;
 	long int z = x + y;
 
-	printf("%ld", x);
-	printf("%ld", y);
+	printf("%ld, ", x);
+	printf("%ld, ", y);
 
 	while (counter < 98)
 	{
