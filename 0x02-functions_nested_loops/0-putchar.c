@@ -6,16 +6,14 @@
  */
 int main(void)
 {
-	char str[] = "_putchar";
-	size_t length = sizeof(str) / sizeof(str[0]);
-	size_t i = 0;
-
-	while(i < length)
-	{
-		_putchar(i);
-		i++;
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
