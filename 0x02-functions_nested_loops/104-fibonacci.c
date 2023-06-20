@@ -15,7 +15,7 @@ int main(void)
 	printf("%ld, ", x);
 	printf("%ld, ", y);
 
-	while (counter < 98)
+	while (counter <= 98)
 	{
 		counter++;
 		printf("%ld", z);
