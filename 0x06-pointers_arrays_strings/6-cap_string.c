@@ -10,7 +10,8 @@
 int check_separators(char s)
 {
 	int i;
-	char sepArr[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '\"', '(', ')', '{', '}'};
+	char sepArr[13] = {' ', '\t', '\n', ',', ';',
+	       	'.', '!', '?', '\"', '(', ')', '{', '}'};
 
 	for (i = 0; i < 13; i++)
 	{
@@ -36,7 +37,8 @@ char *cap_string(char *str)
 		if (check_separators(str[i]))
 			continue;
 
-		if (str[i] >= 'a' && str[i] <= 'z' && (check_separators(str[i - 1]) || i == 0))
+		if (str[i] >= 'a' && str[i] <= 'z' &&
+		 (check_separators(str[i - 1]) || i == 0))
 		{
 			str[i] = str[i] - 32;
 		}
