@@ -18,7 +18,7 @@ char *leet(char *s)
 		{
 			if (s[i] == arr[j])
 			{
-				s[i] = arr[j +1];
+				s[i] = arr[j + 1];
 				break;
 			}
 		}
