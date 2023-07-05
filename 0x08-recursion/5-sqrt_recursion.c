@@ -11,7 +11,7 @@
 int check_num(int x, int y)
 {
 	if (x * x == y)
-		return(x);
+		return (x);
 	if (x * x > y)
 		return (-1);
 	return (check_num(x + 1, y));
