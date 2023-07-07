@@ -10,7 +10,7 @@
  *
  * Return: 0
  */
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int coins = 0;
 	int cents;
