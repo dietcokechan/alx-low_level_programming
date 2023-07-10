@@ -21,15 +21,15 @@ char *argstostr(int ac, char **av)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 		{
-			size ++;
+			size++;
 		}
 	}
 
 	size += (ac + 1);
-	str = malloc (sizeof(char) * size);
+	str = malloc(sizeof(char) * size);
 	if (str == NULL)
 		return (NULL);
-	for (i =0; i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
 		{
