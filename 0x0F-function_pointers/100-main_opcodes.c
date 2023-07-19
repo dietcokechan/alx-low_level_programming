@@ -37,13 +37,13 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		printf("Error\n");
-		exit(99);
+		exit(98);
 	}
 	n = atoi(argv[1]);
 	if (n < 0)
 	{
 		printf("Error\n");
-		exit(100);
+		exit(99);
 	}
 	get_opcodes((char *)&main, n);
 	return (0);
