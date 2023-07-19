@@ -6,7 +6,6 @@
  * get_op_func - returns a pointer to func that corresponds to operator
  *
  * @s: operator
- * 
  * Return: func
  */
 int (*get_op_func(char *s))(int, int)
