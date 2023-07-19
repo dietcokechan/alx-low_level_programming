@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 	if (n < 0)
 	{
 		printf("Error\n");
-		exit(99);
+		exit(100);
 	}
 	get_opcodes((char *)&main, n);
 	return (0);
