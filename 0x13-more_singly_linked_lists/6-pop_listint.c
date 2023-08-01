@@ -4,6 +4,8 @@
  * pop_listint - deletes the head node of list
  *
  * @head:head
+ *
+ * Return: node data
  */
 int pop_listint(listint_t **head)
 {
