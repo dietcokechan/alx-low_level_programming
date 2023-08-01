@@ -13,8 +13,9 @@ void free_listint2(listint_t **head)
 		return;
 	while (*head != NULL)
 	{
-		temp = *head->next;
+		temp = *head;
 		free(*head);
-		*head = temp;
+		*head = temp->next;
 	}
+	*head = NULL;
 }
