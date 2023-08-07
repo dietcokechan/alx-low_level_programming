@@ -8,7 +8,7 @@
  *
  * Return: always 0
  */
-int main(int ac, char **av)
+int main(int argc, char **argv)
 {
 	int from, to, printed, red;
 	char buff[1024];
