@@ -14,3 +14,4 @@
 
 # Ignore
 # *.o
+.vscode/settings.json
