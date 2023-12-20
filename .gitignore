@@ -11,6 +11,7 @@
 !0x17-doubly_linked_lists/102-result
 !101-md5_gm
 !gm
+!0x1C-makefiles/*
 
 # Ignore
 # *.o
