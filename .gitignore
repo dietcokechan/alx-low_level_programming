@@ -12,6 +12,7 @@
 !101-md5_gm
 !gm
 !0x1C-makefiles/*
+!0x1E-search_algorithms/*
 
 # Ignore
 # *.o
